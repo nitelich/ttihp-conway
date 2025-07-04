@@ -27,6 +27,6 @@ Note that the input clock should be for standard VGA, 25.175MHz, as it is used t
 
 ## Testing
 
-Low level components of this module were tested using dedicated test benches (source not included here). The module as a whole was wrapped in the [MiSTer core template](https://github.com/MiSTer-devel/Template_MiSTer) and tested on the (MiSTer FPGA)[https://mister-devel.github.io/MkDocs_MiSTer/] (source and core RBF file not included here).
+Low level components of this module were tested using dedicated test benches (source not included here). The module as a whole was wrapped in the [MiSTer core template](https://github.com/MiSTer-devel/Template_MiSTer) and tested on the [MiSTer FPGA](https://mister-devel.github.io/MkDocs_MiSTer/) (source and core RBF file not included here).
 
 [Local hardening](https://tinytapeout.com/guides/local-hardening/) was performed on a Debian 12 (Bookworm) virtual machine running on Windows via VirtualBox. Local hardening was used to tweak the tile size, acceptable area usage, and hold slack from their default values.

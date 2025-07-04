@@ -4,9 +4,9 @@
 
 [Read the documentation for project](docs/info.md).
 
-This project was tested locally using Icarus Verilog. A quick ["local compile test"][src/local_compile_test.bat] script is given in the source directory. However, the full development test benches, scripts, and MiSTer RBF files are not made available as part of this repository. The Tiny Tapeout testbenches have not been instrumented beyond the basic suggestions made in [test/README.md](test/README.md).
+This project was tested locally using Icarus Verilog. A quick ["local compile test"](src/local_compile_test.bat) script is given in the source directory. However, the full development test benches, scripts, and MiSTer RBF files are not made available as part of this repository. The Tiny Tapeout testbenches have not been instrumented beyond the basic suggestions made in [test/README.md](test/README.md).
 
-This project is [open source and free software][LICENSE] under an Apache v2.0 license.
+This project is [open source and free software](LICENSE) under an Apache v2.0 license.
 
 ## What is Tiny Tapeout?
 
@@ -16,7 +16,4 @@ To learn more and get started, visit https://tinytapeout.com.
 
 ## TODO list
 
-- Enable GitHub actions to build the results page.
-   - The GitHub action will automatically build the ASIC files using [OpenLane](https://www.zerotoasiccourse.com/terminology/openlane/).
-   - [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
 - [Submit your design to the next shuttle](https://app.tinytapeout.com/).
